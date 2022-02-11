@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style1.css">
+  <title>Brainy Quiz</title>
+</head>
+<body>
+    <header>
+      <div class="heading">
+        <h2>
+          <a href="home.html">Infortainly</a>
+          <a href="profile.html"><img src="https://i.imgur.com/YAwSi3x.png" align="right"></a>
+        </h2>
+      </div>
+    </header>
+    <div class="quiz-container" id="quiz">
+      
+      <div class="quiz-header">
+        
+        <h2>
+          <label for="question" id="quest">Question Text</label>
+        </h2>
+        
+        <ul>
+          <li>
+            <input type="radio" name="answer" id="a" class="answer">
+            <label for="a" id="a_text">Answer</label>
+          </li>
+
+          <li>
+            <input type="radio" name="answer" id="b" class="answer">
+            <label for="b" id="b_text">Answer</label>
+          </li>
+
+          <li>
+            <input type="radio" name="answer" id="c" class="answer">
+            <label for="c" id="c_text">Answer</label>
+          </li>
+
+          <li>
+            <input type="radio" name="answer" id="d" class="answer">
+            <label for="d" id="d_text">Answer</label>
+          </li>
+        </ul>
+
+      </div>
+
+      <button id="submit" class="button1">Submit</button>
+      <div id="showScore" class="scoreArea"></div>
+    </div>
+    <script src="quizjs.js"></script>
+</body>
+</html>
