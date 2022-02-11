@@ -13,7 +13,7 @@ a
 }
 body 
 {
-    background-color: #607ff2;
+    background-color: #11144e;
     justify-content: center;
     background-position: center;
     justify-content: center;
@@ -110,8 +110,8 @@ body
 }
 .content-wrapper
 {
-    padding-left: 10%;
-    padding-right: 10%;
+    padding-left: 25%;
+    padding-right: 25%;
     background: #FFF;
     border-radius: 15px;
     box-shadow: 0 0 5px rgba(0,0,0,.3);
@@ -120,11 +120,11 @@ body
 {
     background-color: #e9f4ff;
     float: left;
-    width: 22%;
+    width: 45%;
     text-align: center;
     box-shadow: 0 5px 5px rgba(0, 0, 0, 0.12), 0 4px 4px rgba(0, 0, 0, 0.06);
     margin-right: 2%;
-    margin-left: 1%;
+    margin-left: 2%;
     margin-top: 5%;
     border-radius: 10px;
 }
@@ -139,8 +139,7 @@ body
 .service h1:hover
 {
     border-radius: 2px;
-    transform: scale(1.05);
-    margin: 3% 10%;
+    margin: 3%;
     background-color: #4C51C6;
     box-shadow: 0 3px 8px 0 rgba(29, 31, 46, 0.15);
     opacity: 0.96;
@@ -327,7 +326,7 @@ ul li label
 }
 .button1:hover
 {
-    background-color: #4C51C6;
+    background-color: #607FF2;
 }
 .button1:focus
 {
